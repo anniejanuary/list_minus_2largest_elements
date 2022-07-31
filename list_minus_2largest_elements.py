@@ -15,9 +15,11 @@ class Solution:
     def findElements(self,a, n):
         # Your code goes here
     
-        a = [2, 8, 7, 1, 5]
+        # for example: a = [2, 8, 7, 1, 5]
         a.remove(max(a))
         a.remove(max(a))
         a.sort()
         
         return a
+    
+        # outcome: 2, 1, 5
